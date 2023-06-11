@@ -24,7 +24,7 @@ int main()
     for(i=0; i<6; i++)
     {
         coin=p/tkcoin[i];
-    cout<<fixed<<setprecision(2)<<coin<<" moeda(s) de R$  "<<tkcoin[i]/100.00<<endl;
+    cout<<fixed<<setprecision(2)<<coin<<" moeda(s) de R$ "<<tkcoin[i]/100.00<<endl;
         p=p%tkcoin[i];
     }
 
